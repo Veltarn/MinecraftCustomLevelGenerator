@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minecraft Generator Settings - Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/foundation.min.css"/>
+        <link rel="stylesheet" href="css/jqueryui/jquery-ui.min.css"/>
+        <link rel="stylesheet" href="css/jqueryui/jquery-ui.structure.min.css"/>
+        <link rel="stylesheet" href="css/jqueryui/jquery-ui.theme.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+
+      <nav class="top-bar" data-topbar>
+	<ul class="title-area">
+	  <li class="name">
+	    <h1><a href="#">Minecraft Custom Level Generator</a></h1>
+	  </li>
+	</ul>
+      </nav>
+      <div class="row" style="margin-top:2px;">
+	<div class="small-1 columns">
+	  <label for="result" class="right">Result</label>
+	</div>
+	<div class="small-11 columns">
+	  <input type="text" id="result"/>
+	</div>
+      </div>
+      <div class="row fullWidth">
+	<div class="large-4 columns">
+	  <h3>
+	    Blocks
+	  </h3>
+	  <hr/>
+	  <div class="row">
+	    <div id="selectedBlockInfos" class="fullWidth">
+	      <div id="blockImage" class="left">
+	      
+	      </div>
+	      <div id="blockInfos" class="right">
+		<table>
+		  <tr>
+		    <td>Name</td>
+		    <td id="blockInfos_name" class="text-right"></td>
+		  </tr>
+		  <tr>
+		    <td>Minecraft ID</td>
+		    <td id="blockInfos_minecraftId" class="text-right"></td>
+		  </tr>
+		  <tr>
+		    <td>Decimal ID</td>
+		    <td id="blockInfos_decId" class="text-right"></td>
+		  </tr>
+		  <tr>
+		    <td>Hex ID</td>
+		    <td id="blockInfos_hexId" class="text-right"></td>
+		  </tr>
+		  <tr>
+		    <td># Layers generated</td>
+		    <td><input type="number" id="numberLayersGenerated" min="0"/></td>
+		  <tr>
+		    <td colspan="2"><a class="button tiny" id="useSelectedBlockBtn">Use It</a><br/>
+		      <a class="button tiny alert" title="Remove first block (from left)" id="removeFirst" style="margin: 0 2px;">Remove First</a><a class="button tiny alert" title="Remove Last Block (from right)" id="removeLast" style="margin: 0 2px 0 0;">Remove Last</a><a class="button tiny alert" title="Remove All Blocks" id="removeAll">Remove All</a></td>
+		  </tr>
+		</table>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div id="blocksList">
+	      <div id="loadingMessage"></div>
+	      <div class="tableScroll table600">
+		<table id="blockslist_table" class="fullWidth">
+		  <tbody>
+		    
+		  </tbody>
+		</table>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="large-4 columns">
+	  <h3>Biomes</h3>
+	  <hr/>
+	  <div class="row" style="height: 367px;">
+	    <div class="fullWidth" id="selectedBiome">
+	      <table id="selectedBiomeTable" class="fullWidth">
+		<tr>
+		  <td>Biome ID(dec)</td>
+		  <td id="biomeInfos_biomeId" class="text-right">
+
+		  </td>
+		</tr>
+		<tr>
+		  <td>Biome Name</td>
+		  <td id="biomeInfos_biomeName" class="text-right"></td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+		    <a class="button tiny" id="useSelectedBiome">Use it</a>
+		    <a class="button tiny alert right" id="removeBiome">Remove it</a>
+		  </td>
+		</tr>
+	      </table>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div id="biomesList">
+	      <div id="biomes_loadingMessage"></div>
+	      <div class="tableScroll table600">
+		<table id="biomelist_table" class="fullWidth">
+		  <tbody></tbody>
+		</table>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="large-4 columns">
+	  <h3>Structures</h3>
+	  <hr/>
+	  <div class="row">
+	    <div class="fullWidth" id="selectedStructure" style="height: 367px;">
+	      <table id="selectedStructureTable" class="fullWidth">
+		<tr id="structNameRow">
+		  <td>Structure Name</td>
+		  <td id="structInfos_structureName"></td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+		    <a class="button tiny" id="addStructure">Add Structure</a>
+		    <a class="button tiny right alert" id="removeStructure">Remove Structure</a>
+		  </td>
+		</tr>
+	      </table>
+	    </div>
+	    <div class="row">
+	      <div id="structuresList">
+		<div id="structures_loadingMessage"></div>
+		<div class="tableScroll table600">
+		  <table id="structureslist_table" class="fullWidth">
+		    <tbody></tbody>
+		  </table>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+        
+      <script type="text/javascript" src="js/vendor/jquery.js"></script>
+      <script type="text/javascript" src="js/vendor/placeholder.js"></script>
+      <script type="text/javascript" src="js/vendor/jquery.cookie.js"></script>
+      <script type="text/javascript" src="js/foundation.min.js"></script>
+      <script type="text/javascript" src="js/libs/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/Objects.js"></script>
+      <script type="text/javascript" src="js/Arrays.js"></script>
+      <script type="text/javascript" src="js/BlocksFileHandler.js"></script>
+      <script type="text/javascript" src="js/CustomGenerator.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

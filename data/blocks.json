@@ -1,0 +1,1192 @@
+{
+	"minecraft:air": {
+		"dec": 0,
+		"hexa": "0",
+		"name": "Air",
+		"tags": "air"
+	},
+	"minecraft:stone": {
+		"dec": 1,
+		"hexa": "1",
+		"name": "Stone",
+		"tags": "ground,solid,stone",
+		"image": "data:image/png;base64,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"
+	},
+	"minecraft:grass": {
+		"dec": 2,
+		"hex": "2",
+		"name": "Grass Block",
+		"tags": "ground,solid,grass,dirt",
+		"image": "data:image/png;base64,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"
+	},
+	"minecraft:dirt": {
+		"dec": 3,
+		"hex": "3",
+		"name": "Dirt",
+		"tags": "ground,solid,dirt"
+	},
+	"minecraft:cobblestone": {
+		"dec": 4,
+		"hex": "4",
+		"name": "Cobblestone",
+		"tags": "ground,solid,stone"
+	},
+	"minecraft:planks": {
+		"dec": 5,
+		"hex": "5",
+		"name": "Wood Planks",
+		"tags": "ground,solid,wood"
+	},
+	"minecraft:sapling": {
+		"dec": 6,
+		"hex": "6",
+		"name": "Sapling",
+		"tags": "tree,seed"
+	},
+	"minecraft:bedrock": {
+		"dec": 7,
+		"hex": "7",
+		"name": "Bedrock",
+		"tags": "ground,unbreakable,solid,bedrock"
+	},
+	"minecraft:flowing_water": {
+		"dec": 8,
+		"hex": "8",
+		"name": "Water",
+		"tags": "liquid,water"
+	},
+	"minecraft:water": {
+		"dec": 9,
+		"hex": "9",
+		"name": "Stationary Water",
+		"tags": "liquid,water"
+	},
+	"minecraft:flowing_lava": {
+		"dec": 10,
+		"hex": "0xA",
+		"name": "Lava",
+		"tags": "liquid,lava,dangerous,light"
+	},
+	"minecraft:lava": {
+		"dec": 11,
+		"hex": "0xB",
+		"name": "Stationary Lava",
+		"tags": "liquid,lava,dangerous,light"
+	},
+	"minecraft:sand": {
+		"dec": 12,
+		"hex": "0xC",
+		"name": "Sand",
+		"tags": "ground,stone,solid,fall,sand"
+	},
+	"minecraft:gravel": {
+		"dec": 13,
+		"hex": "0xD",
+		"name": "Gravel",
+		"tags": "ground,solid,fall"
+	},
+	"minecraft:gold_ore": {
+		"dec": 14,
+		"hex": "0xE",
+		"name": "Gold Ore",
+		"tags": "ground,solid,ore,gold"
+	},
+	"minecraft:iron_ore": {
+		"dec": 15,
+		"hex": "0xF",
+		"name": "Iron Ore",
+		"tags": "ground,solid,ore,iron"
+	},
+	"minecraft:coal_ore": {
+		"dec": 16,
+		"hex": "0x10",
+		"name": "Coal Ore",
+		"tags": "ground,solid,ore,coal"
+	},
+	"minecraft:log": {
+		"dec": 17,
+		"hex": "0x11",
+		"name": "Wood",
+		"tags": "ground,solid,wood"
+	},
+	"minecraft:leaves": {
+		"dec": 18,
+		"hex": "0x12",
+		"name": "Leaves",
+		"tags": "solid,leaves"
+	},
+	"minecraft:sponge": {
+		"dec": 19,
+		"hex": "0x13",
+		"name": "Sponge",
+		"tags": "ground,solid"
+	},
+	"minecraft:glass": {
+		"dec": 20,
+		"hex": "0x14",
+		"name": "Glass",
+		"tags": "ground,solid,glass"
+	},
+	"minecraft:lapis_ore": {
+		"dec": 21,
+		"hex": "0x15",
+		"name": "Lapis Lazuli Ore",
+		"tags": "ground,solid,ore,lapis"
+	},
+	"minecraft:lapis_block": {
+		"dec": 22,
+		"hex": "0x16",
+		"name": "Lapis Lazuli Block",
+		"tags": "ground,solid,lapis"
+	},
+	"minecraft:dispenser": {
+		"dec": 23,
+		"hex": "0x17",
+		"name": "Dispenser",
+		"tags": "solid,interactable,redstone"
+	},
+	"minecraft:sandstone": {
+		"dec": 24,
+		"hex": "0x18",
+		"name": "Sandstone",
+		"tags": "ground,solid,sand,stone"
+	},
+	"minecraft:noteblock": {
+		"dec": 25,
+		"hex": "0x19",
+		"name": "Note Block",
+		"tags": "solid,interactable,redstone,music"
+	},
+	"minecraft:bed": {
+		"dec": 26,
+		"hex": "0x1A",
+		"name": "Bed",
+		"tags": "solid,interactable"
+	},
+	"minecraft:golden_rail": {
+		"dec": 27,
+		"hex": "0x1B",
+		"name": "Powered Rail",
+		"tags": "solid,rails,interactable,redstone"
+	},
+	"minecraft:detector_rail": {
+		"dec": 28,
+		"hex": "0x1C",
+		"name": "Detector Rail",
+		"tags": "solid,rails,interactable,redstone"
+	},
+	"minecraft:sticky_piston": {
+		"dec": 29,
+		"hex": "0x1D",
+		"name": "Sticky Piston",
+		"tags": "solid,rails,interactable,redstone"
+	},
+	"minecraft:web": {
+		"dec": 30,
+		"hex": "0x1E",
+		"name": "Cobweb",
+		"tags": "web"
+	},
+	"minecraft:tallgrass": {
+		"dec": 31,
+		"hex": "0x1F",
+		"name": "Grass",
+		"tags": "grass"
+	},
+	"minecraft:deadbush": {
+		"dec": 32,
+		"hex": "0x20",
+		"name": "Dead Bush",
+		"tags": "bush,dead bush"
+	},
+	"minecraft:piston": {
+		"dec": 33,
+		"hex": "0x21",
+		"name": "Piston",
+		"tags": "solid,interactable,redstone"
+	},
+	"minecraft:piston_head": {
+		"dec": 34,
+		"hex": "0x22",
+		"name": "Piston Extension",
+		"tags": "solid,piston"
+	},
+	"minecraft:wool": {
+		"dec": 35,
+		"hex": "0x23",
+		"name": "Wool",
+		"tags": "ground,solid,wool"
+	},
+	"minecraft:piston_extension": {
+		"dec": 36,
+		"hex": "0x24",
+		"name": "Block moved by Piston",
+		"tags": "piston,extension,unbreakable"
+	},
+	"minecraft:yellow_flower": {
+		"dec": 37,
+		"hex": "0x25",
+		"name": "Dandelion",
+		"tags": "flowers"
+	},
+	"minecraft:red_flower": {
+		"dec": 38,
+		"hex": "0x26",
+		"name": "Poppy",
+		"tags": "flowers"
+	},
+	"minecraft:brown_mushroom": {
+		"dec": 39,
+		"hex": "0x27",
+		"name": "Brown Mushroom",
+		"tags": "mushrooms,brown"
+	},
+	"minecraft:red_mushroom": {
+		"dec": 40,
+		"hex": "0x28",
+		"name": "Red Mushroom",
+		"tags": "mushrooms,brown"
+	},
+	"minecraft:gold_block": {
+		"dec": 41,
+		"hex": "0x29",
+		"name": "Block of Gold",
+		"tags": "ground,solid,gold"
+	},
+	"minecraft:iron_block": {
+		"dec": 42,
+		"hex": "0x2A",
+		"name": "Block of Iron",
+		"tags": "ground,solid,iron"
+	},
+	"minecraft:double_stone_slab": {
+		"dec": 43,
+		"hex": "0x2B",
+		"name": "Double Stone Slab",
+		"tags": "ground,solid,slab,stone,double"
+	},
+	"minecraft:stone_slab": {
+		"dec": 44,
+		"hex": "0x2C",
+		"name": "Stone Slab",
+		"tags": "ground,solid,slab,stone"
+	},
+	"minecraft:brick_block": {
+		"dec": 45,
+		"hex": "0x2D",
+		"name": "Bricks",
+		"tags": "ground,solid,bricks"
+	},
+	"minecraft:tnt": {
+		"dec": 46,
+		"hex": "0x2E",
+		"name": "TNT",
+		"tags": "ground,solid,explosive,tnt,interactable,redstone,dangerous"
+	},
+	"minecraft:bookshelf": {
+		"dec": 47,
+		"hex": "0x2F",
+		"name": "Bookshelf",
+		"tags": "ground,solid,bookshelf,interactable"
+	},
+	"minecraft:mossy_cobblestone": {
+		"dec": 48,
+		"hex": "0x30",
+		"name": "Moss Stone",
+		"tags": "ground,solid,stone,moss"
+	},
+	"minecraft:obsidian": {
+		"dec": 49,
+		"hex": "0x31",
+		"name": "Obsidian",
+		"tags": "ground,solid,obsidian,lava,water"
+	},
+	"minecraft:torch": {
+		"dec": 50,
+		"hex": "0x32",
+		"name": "Torch",
+		"tags": "fire,torch,light"
+	},
+	"minecraft:fire": {
+		"dec": 51,
+		"hex": "0x33",
+		"name": "Fire",
+		"tags": "fire,dangerous,light"
+	},
+	"minecraft:mob_spawner": {
+		"dec": 52,
+		"hex": "0x34",
+		"name": "Monster Spawner",
+		"tags": "ground,solid,spawner,dangerous"
+	},
+	"minecraft:oak_stairs": {
+		"dec": 53,
+		"hex": "0x35",
+		"name": "Oak Wood Stairs",
+		"tags": "ground,solid,stairs,wook,oak"
+	},
+	"minecraft:chest": {
+		"dec": 54,
+		"hex": "0x36",
+		"name": "Chest",
+		"tags": "solid,chest"
+	},
+	"minecraft:redstone_wire": {
+		"dec": 55,
+		"hex": "0x37",
+		"name": "Redstone Wire",
+		"tags": "redstone,wire"
+	},
+	"minecraft:diamond_ore": {
+		"dec": 56,
+		"hex": "0x38",
+		"name": "Diamond Ore",
+		"tags": "ground,solid,diamond,ore"
+	},
+	"minecraft:diamond_block": {
+		"dec": 57,
+		"hex": "0x39",
+		"name": "Block of Diamond",
+		"tags": "ground,solid,diamond"
+	},
+	"minecraft:crafting_table": {
+		"dec": 58,
+		"hex": "0x3A",
+		"name": "Crafting Table",
+		"tags": "interactable,crafting,table,solid"
+	},
+	"minecraft:wheat": {
+		"dec": 59,
+		"hex": "0x3B",
+		"name": "Wheat",
+		"tags": "food,grows,wheat"
+	},
+	"minecraft:farmland": {
+		"dec": 60,
+		"hex": "0x3C",
+		"name": "Farmland",
+		"tags": "ground,solid"
+	},
+	"minecraft:furnace": {
+		"dec": 61,
+		"hex": "0x3D",
+		"name": "Furnace",
+		"tags": "solid,interactable,furnace"
+	},
+	"minecraft:lit_furnace": {
+		"dec": 62,
+		"hex": "0x3E",
+		"name": "Burning Furnace",
+		"tags": "solid,interactable,furnace"
+	},
+	"minecraft:standing_sign": {
+		"dec": 63,
+		"hex": "0x3F",
+		"name": "Standing Sign",
+		"tags": "solid,sign,interactable"
+	},
+	"minecraft:wooden_door": {
+		"dec": 64,
+		"hex": "0x40",
+		"name": "Wooden Door",
+		"tags": "solid,door,wood,interactable"
+	},
+	"minecraft:ladder": {
+		"dec": 65,
+		"hex": "0x41",
+		"name": "Ladder",
+		"tags": "solid,interactable,ladder"
+	},
+	"minecraft:rail": {
+		"dec": 66,
+		"hex": "0x42",
+		"name": "Rail",
+		"tags": "rails,redstone,interactable"
+	},
+	"minecraft:stone_stairs": {
+		"dec": 67,
+		"hex": "0x43",
+		"name": "Cobblestone Stairs",
+		"tags": "ground,stairs,solid,stone"
+	},
+	"minecraft:wall_sign": {
+		"dec": 68,
+		"hex": "0x44",
+		"name": "Wall Sign",
+		"tags": "sign,interactable"
+	},
+	"minecraft:lever": {
+		"dec": 69,
+		"hex": "0x45",
+		"name": "Lever",
+		"tags": "interactable,redstone,lever"
+	},
+	"minecraft:stone_pressure_plate": {
+		"dec": 70,
+		"hex": "0x46",
+		"name": "Stone Pressure Plate",
+		"tags": "interactable,pressure plate,redstone,stone"
+	},
+	"minecraft:iron_door": {
+		"dec": 71,
+		"hex": "0x47",
+		"name": "Iron Door",
+		"tags": "door,iron"
+	},
+	"minecraft:wooden_pressure_plate": {
+		"dec": 72,
+		"hex": "0x48",
+		"name": "Wooden Pressure Plate",
+		"tags": "interactable,pressure plate,redstone,wood"
+	},
+	"minecraft:redstone_ore": {
+		"dec": 73,
+		"hex": "0x49",
+		"name": "Redstone Ore",
+		"tags": "redstone,ore,ground,solid"
+	},
+	"minecraft:lit_redstone_ore": {
+		"dec": 74,
+		"hex": "0x4A",
+		"name": "Glowing Redstone Ore",
+		"tags": "redstone,ore,ground,solid,light"
+	},
+	"minecraft:unlit_redstone_torch": {
+		"dec": 75,
+		"hex": "0x4B",
+		"name": "Inactive Redstone Torch",
+		"tags": "redstone,torch"
+	},
+	"minecraft:redstone_torch": {
+		"dec": 76,
+		"hex": "0x4C",
+		"name": "Redstone Torch",
+		"tags": "redstone,torch,light"
+	},
+	"minecraft:stone_button": {
+		"dec": 77,
+		"hex": "0x4D",
+		"name": "Stone Button",
+		"tags": "redstone,button,interactable,stone,button"
+	},
+	"minecraft:snow_layer": {
+		"dec": 78,
+		"hex": "0x4E",
+		"name": "Snow",
+		"tags": "snow"
+	},
+	"minecraft:ice": {
+		"dec": 79,
+		"hex": "0x4F",
+		"name": "Ice",
+		"tags": "solid,ice"
+	},
+	"minecraft:snow": {
+		"dec": 80,
+		"hex": "0x50",
+		"name": "Snow",
+		"tags": "ground,solid,snow"
+	},
+	"minecraft:cactus": {
+		"dec": 81,
+		"hex": "0x51",
+		"name": "Cactus",
+		"tags": "solid,cactus,dangerous"
+	},
+	"minecraft:clay": {
+		"dec": 82,
+		"hex": "0x52",
+		"name": "Clay",
+		"tags": "ground,solid,clay"
+	},
+	"minecraft:reeds": {
+		"dec": 83,
+		"hex": "0x53",
+		"name": "Sugar Cane",
+		"tags": "food,sugar,cane"
+	},
+	"minecraft:jukebox": {
+		"dec": 84,
+		"hex": "0x54",
+		"name": "Jukebox",
+		"tags": "interactable,redstone,jukebox,solid,music"
+	},
+	"minecraft:fence": {
+		"dec": 85,
+		"hex": "0x55",
+		"name": "Fence",
+		"tags": "solid,fence,wood"
+	},
+	"minecraft:pumpkin": {
+		"dec": 86,
+		"hex": "0x56",
+		"name": "Pumpkin",
+		"tags": "ground,solid,pumpkin"
+	},
+	"minecraft:netherrack": {
+		"dec": 87,
+		"hex": "0x57",
+		"name": "Netherrack",
+		"tags": "ground,solid,nether,netherrack"
+	},
+	"minecraft:soul_sand": {
+		"dec": 88,
+		"hex": "0x58",
+		"name": "Soul Sand",
+		"tags": "ground,solid,nether,soul sand"
+	},
+	"minecraft:glowstone": {
+		"dec": 89,
+		"hex": "0x59",
+		"name": "Glowstone",
+		"tags": "ground,solid,nether,light"
+	},
+	"minecraft:portal": {
+		"dec": 90,
+		"hex": "0x5A",
+		"name": "Portal",
+		"tags": "interactable"
+	},
+	"minecraft:lit_pumpkin": {
+		"dec": 91,
+		"hex": "0x5B",
+		"name": "Jack o'Lantern",
+		"tags": "ground,solid,pumpkin,light"
+	},
+	"minecraft:cake": {
+		"dec": 92,
+		"hex": "0x5C",
+		"name": "Cake",
+		"tags": "cake,solid,food,interactable"
+	},
+	"minecraft:unpowered_repeater": {
+		"dec": 93,
+		"hex": "0x5D",
+		"name": "Redstone Repeater (inactive)",
+		"tags": "redstone,interactable,repeater"
+	},
+	"minecraft:powered_repeater": {
+		"dec": 94,
+		"hex": "0x5E",
+		"name": "Redstone Repeater (active)",
+		"tags": "redstone,interactable,repeater"
+	},
+	"minecraft:stained_glass": {
+		"dec": 95,
+		"hex": "0x5F",
+		"name": "Stained Glass",
+		"tags": "glass,solid"
+	},
+	"minecraft:trapdoor": {
+		"dec": 96,
+		"hex": "0x60",
+		"name": "Trapdoor",
+		"tags": "solid,trapdoor"
+	},
+	"minecraft:monster_egg": {
+		"dec": 97,
+		"hex": "0x61",
+		"name": "Monster Egg",
+		"tags": "monster egg"
+	},
+	"minecraft:stonebrick": {
+		"dec": 98,
+		"hex": "0x62",
+		"name": "Stone Bricks",
+		"tags": "ground,solid,stone,bricks"
+	},
+	"minecraft:brown_mushroom_block": {
+		"dec": 99,
+		"hex": "0x63",
+		"name": "Huge Brown Mushroom",
+		"tags": "mushrooms,solid,ground,brown"
+	},
+	"minecraft:red_mushroom_block": {
+		"dec": 100,
+		"hex": "0x64",
+		"name": "Huge Red Mushroom",
+		"tags": "mushrooms,solid,ground,red"
+	},
+	"minecraft:iron_bars": {
+		"dec": 101,
+		"hex": "0x65",
+		"name": "Iron Bars",
+		"tags": "solid,iron,bars"
+	},
+	"minecraft:glass_pane": {
+		"dec": 102,
+		"hex": "0x66",
+		"name": "Glass Pane",
+		"tags": "glass,solid"
+	},
+	"minecraft:melon_block": {
+		"dec": 103,
+		"hex": "0x67",
+		"name": "Melon",
+		"tags": "ground,solid,melon"
+	},
+	"minecraft:pumpkin_stem": {
+		"dec": 104,
+		"hex": "0x68",
+		"name": "Pumpkin Stem",
+		"tags": "seed,pumpkin"
+	},
+	"minecraft:melon_stem": {
+		"dec": 105,
+		"hex": "0x69",
+		"name": "Melon Stem",
+		"tags": "seed,melon"
+	},
+	"minecraft:vine": {
+		"dec": 106,
+		"hex": "0x6A",
+		"name": "Vines",
+		"tags": "interactable,vines"
+	},
+	"minecraft:fence_gate": {
+		"dec": 107,
+		"hex": "0x6B",
+		"name": "Fence Gate",
+		"tags": "interactable,gate,fence,solid"
+	},
+	"minecraft:brick_stairs": {
+		"dec": 108,
+		"hex": "0x6C",
+		"name": "Brick Stairs",
+		"tags": "ground,stairs,bricks,solid,ground"
+	},
+	"minecraft:stone_brick_stairs": {
+		"dec": 109,
+		"hex": "0x6D",
+		"name": "Stone Brick Stairs",
+		"tags": "ground,solid,stairs,stone,brick"
+	},
+	"minecraft:mycelium": {
+		"dec": 110,
+		"hex": "0x6E",
+		"name": "Mycelium",
+		"tags": "ground,solid,mycelium"
+	},
+	"minecraft:waterlily": {
+		"dec": 111,
+		"hex": "0x6F",
+		"name": "Lily Pad",
+		"tags": "solid,water,lily pad"
+	},
+	"minecraft:nether_brick": {
+		"dec": 112,
+		"hex": "0x70",
+		"name": "Nether Brick",
+		"tags": "ground,solid,bricks,nether"
+	},
+	"minecraft:nether_brick_fence": {
+		"dec": 113,
+		"hex": "0x71",
+		"name": "Nether Brick Fence",
+		"tags": "solid,fence,bricks,nether"
+	},
+	"minecraft:nether_brick_stairs": {
+		"dec": 114,
+		"hex": "0x72",
+		"name": "Nether Brick Stairs",
+		"tags": "ground,solid,stairs,nether,bricks"
+	},
+	"minecraft:nether_wart": {
+		"dec": 115,
+		"hex": "0x73",
+		"name": "Nether Wart",
+		"tags": "flowers,nether"
+	},
+	"minecraft:enchanting_table": {
+		"dec": 116,
+		"hex": "0x74",
+		"name": "Enchantment Table",
+		"tags": "solid,interactable,enchantment,table"
+	},
+	"minecraft:brewing_stand": {
+		"dec": 117,
+		"hex": "0x75",
+		"name": "Brewing Stand",
+		"tags": "solid,brewing,stand,interactable"
+	},
+	"minecraft:cauldron": {
+		"dec": 118,
+		"hex": "0x76",
+		"name": "Cauldron",
+		"tags": "solid,cauldron,interactable"
+	},
+	"minecraft:end_portal": {
+		"dec": 119,
+		"hex": "0x77",
+		"name": "End Portal",
+		"tags": "interactable,end,portal"
+	},
+	"minecraft:end_portal_frame": {
+		"dec": 120,
+		"hex": "0x78",
+		"name": "End Portal Block",
+		"tags": "ground,solid,interactable,end,portal"
+	},
+	"minecraft:end_stone": {
+		"dec": 121,
+		"hex": "0x79",
+		"name": "End Stone",
+		"tags": "ground,solid,end,stone"
+	},
+	"minecraft:dragon_egg": {
+		"dec": 122,
+		"hex": "0x7A",
+		"name": "Dragon Egg",
+		"tags": "solid,end,dragon"
+	},
+	"minecraft:redstone_lamp": {
+		"dec": 123,
+		"hex": "0x7B",
+		"name": "Redstone Lamp",
+		"tags": "ground,solid,interactable,light,lamp,redstone"
+	},
+	"minecraft:lit_redstone_lamp": {
+		"dec": 124,
+		"hex": "0x7C",
+		"name": "Redstone Lamp (active)",
+		"tags": "ground,solid,interactable,light,lamp,redstone"
+	},
+	"minecraft:double_wooden_slab": {
+		"dec": 125,
+		"hex": "0x7D",
+		"name": "Double Wooden Slab",
+		"tags": "ground,solid,slab,wood,double"
+	},
+	"minecraft:wooden_slab": {
+		"dec": 126,
+		"hex": "0x7E",
+		"name": "Wooden Slab",
+		"tags": "ground,solid,slab,wood"
+	},
+	"minecraft:cocoa": {
+		"dec": 127,
+		"hex": "0x7F",
+		"name": "Cocoa",
+		"tags": "cocoa,interactable,food"
+	},
+	"minecraft:sandstone_stairs": {
+		"dec": 128,
+		"hex": "0x80",
+		"name": "Sandstone Stairs",
+		"tags": "ground,solid,stairs,sand,stone"
+	},
+	"minecraft:emerald_ore": {
+		"dec": 129,
+		"hex": "0x81",
+		"name": "Emerald Ore",
+		"tags": "ground,solid,emerald,ore"
+	},
+	"minecraft:ender_chest": {
+		"dec": 130,
+		"hex": "0x82",
+		"name": "Ender Chest",
+		"tags": "solid,end,chest"
+	},
+	"minecraft:tripwire_hook": {
+		"dec": 131,
+		"hex": "0x83",
+		"name": "Tripwire Hook",
+		"tags": "interactable,redstone,tripwire,hook"
+	},
+	"minecraft:tripwire": {
+		"dec": 132,
+		"hex": "0x84",
+		"name": "Tripwire",
+		"tags": "interactable,redstone,tripwire"
+	},
+	"minecraft:emerald_block": {
+		"dec": 133,
+		"hex": "0x85",
+		"name": "Block of Emerald",
+		"tags": "ground,solid,emerald"
+	},
+	"minecraft:spruce_stairs": {
+		"dec": 134,
+		"hex": "0x86",
+		"name": "Spruce Stairs",
+		"tags": "ground,solid,stairs,wood,spruce"
+	},
+	"minecraft:birch_stairs": {
+		"dec": 135,
+		"hex": "0x87",
+		"name": "Birch Stairs",
+		"tags": "ground,solid,stairs,wood,birch"
+	},
+	"minecraft:jungle_stairs": {
+		"dec": 136,
+		"hex": "0x88",
+		"name": "Jungle Stairs",
+		"tags": "ground,solid,stairs,wood,jungle"
+	},
+	"minecraft:command_block": {
+		"dec": 137,
+		"hex": "0x89",
+		"name": "Command Block",
+		"tags": "solid,interactable,command,redstone"
+	},
+	"minecraft:beacon": {
+		"dec": 138,
+		"hex": "0x8A",
+		"name": "Beacon",
+		"tags": "solid,beacon,light,interactable"
+	},
+	"minecraft:cobblestone_wall": {
+		"dec": 139,
+		"hex": "0x8B",
+		"name": "Cobblestone Wall",
+		"tags": "solid,stone,cobblestone,wall"
+	},
+	"minecraft:flower_pot": {
+		"dec": 140,
+		"hex": "0x8C",
+		"name": "Flower Pot",
+		"tags": "flower pot"
+	},
+	"minecraft:carrots": {
+		"dec": 141,
+		"hex": "0x8D",
+		"name": "Carrots",
+		"tags": "food,interactable,carrots"
+	},
+	"minecraft:potatoes": {
+		"dec": 142,
+		"hex": "0x8E",
+		"name": "Potato",
+		"tags": "food,interactable,potatoes"
+	},
+	"minecraft:wooden_button": {
+		"dec": 143,
+		"hex": "0x8F",
+		"name": "Wooden Button",
+		"tags": "button,interactable,redstone,wood"
+	},
+	"minecraft:skull": {
+		"dec": 144,
+		"hex": "0x90",
+		"name": "Mob Head",
+		"tags": "monsters,head,skull"
+	},
+	"minecraft:anvil": {
+		"dec": 145,
+		"hex": "0x91",
+		"name": "Anvil",
+		"tags": "anvil,solid"
+	},
+	"minecraft:trapped_chest": {
+		"dec": 146,
+		"hex": "0x92",
+		"name": "Trapped Chest",
+		"tags": "solid,chest,trapped"
+	},
+	"minecraft:light_weighted_pressure_plate": {
+		"dec": 147,
+		"hex": "0x93",
+		"name": "Light Weighted Pressure Plate",
+		"tags": "interactable,pressure plate,light,weight,redstone"
+	},
+	"minecraft:heavy_weighted_pressure_plate": {
+		"dec": 148,
+		"hex": "0x94",
+		"name": "Heavy Weighted Pressure Plate",
+		"tags": "interactable,pressure plate,heavy,weight,redstone"
+	},
+	"minecraft:unpowered_comparator": {
+		"dec": 149,
+		"hex": "0x95",
+		"name": "Unpowered Comparator",
+		"tags": "interactable,comparator,redstone"
+	},
+	"minecraft:powered_comparator": {
+		"dec": 150,
+		"hex": "0x96",
+		"name": "Powered Comparator",
+		"tags": "interactable,comparator,redstone"
+	},
+	"minecraft:daylight_detector": {
+		"dec": 151,
+		"hex": "0x97",
+		"name": "Daylight Detector",
+		"tags": "interactable,sensor,daylight,redstone"
+	},
+	"minecraft:redstone_block": {
+		"dec": 152,
+		"hex": "0x98",
+		"name": "Block of Redstone",
+		"tags": "ground,solid,redstone"
+	},
+	"minecraft:quartz_ore": {
+		"dec": 153,
+		"hex": "0x99",
+		"name": "Nether Quartz Ore",
+		"tags": "ground,solid,quartz,ore"
+	},
+	"minecraft:hopper": {
+		"dec": 154,
+		"hex": "0x9A",
+		"name": "Hopper",
+		"tags": "solid,hopper,interactable"
+	},
+	"minecraft:quartz_block": {
+		"dec": 155,
+		"hex": "0x9B",
+		"name": "Block of Quartz",
+		"tags": "ground,solid,quartz"
+	},
+	"minecraft:quartz_stairs": {
+		"dec": 156,
+		"hex": "0x9C",
+		"name": "Quartz Stairs",
+		"tags": "ground,solid,stairs,quartz"
+	},
+	"minecraft:activator_rail": {
+		"dec": 157,
+		"hex": "0x9D",
+		"name": "Activator Rail",
+		"tags": "interactable,redstone,rails,sensor"
+	},
+	"minecraft:dropper": {
+		"dec": 158,
+		"hex": "0x9E",
+		"name": "Dropper",
+		"tags": "interactable,redstone,dropper"
+	},
+	"minecraft:stained_hardened_clay": {
+		"dec": 159,
+		"hex": "0x9F",
+		"name": "Stained Clay",
+		"tags": "ground,solid,clay,hardened"
+	},
+	"minecraft:stained_glass_pane": {
+		"dec": 160,
+		"hex": "0xA0",
+		"name": "Stained Glass Pane",
+		"tags": "glass,solid"
+	},
+	"minecraft:leaves2": {
+		"dec": 161,
+		"hex": "0xA1",
+		"name": "Leaves",
+		"tags": "solid,leaves"
+	},
+	"minecraft:log2": {
+		"dec": 162,
+		"hex": "0xA2",
+		"name": "Wood",
+		"tags": "ground,solid,wood"
+	},
+	"minecraft:acacia_stairs": {
+		"dec": 163,
+		"hex": "0xA3",
+		"name": "Acacia Wood Stairs",
+		"tags": "ground,solid,stairs,acacia"
+	},
+	"minecraft:dark_oak_stairs": {
+		"dec": 164,
+		"hex": "0xA4",
+		"name": "Dark Oak Wood Stairs",
+		"tags": "ground,solid,stairs,dark oak"
+	},
+	"minecraft:slime": {
+		"dec": 165,
+		"hex": "0xA5",
+		"name": "Slime Block",
+		"tags": "ground,solid,slime"
+	},
+	"minecraft:barrier": {
+		"dec": 166,
+		"hex": "0xA6",
+		"name": "Barrier",
+		"tags": "solid,barrier"
+	},
+	"minecraft:iron_trapdoor": {
+		"dec": 167,
+		"hex": "0xA7",
+		"name": "Iron Trapdoor",
+		"tags": "solid,trapdoor"
+	},
+	"minecraft:prismarine": {
+		"dec": 168,
+		"hex": "0xA8",
+		"name": "Primsmarine",
+		"tags": "ground,solid,prismarine"
+	},
+	"minecraft:sea_lantern": {
+		"dec": 169,
+		"hex": "0xA9",
+		"name": "Sea Lantern",
+		"tags": "ground,solid,light,sea lantern"
+	},
+	"minecraft:hay_block": {
+		"dec": 170,
+		"hex": "0xAA",
+		"name": "Hay Block",
+		"tags": "ground,solid,hay"
+	},
+	"minecraft:carpet": {
+		"dec": 171,
+		"hex": "0xAB",
+		"name": "Carpet",
+		"tags": "carpet"
+	},
+	"minecraft:hardened_clay": {
+		"dec": 172,
+		"hex": "0xAC",
+		"name": "Hardened Clay",
+		"tags": "ground,solid,clay,hardened"
+	},
+	"minecraft:coal_block": {
+		"dec": 173,
+		"hex": "0xAD",
+		"name": "Block of Coal",
+		"tags": "ground,solid,coal"
+	},
+	"minecraft:packed_ice": {
+		"dec": 174,
+		"hex": "0xAE",
+		"name": "Packed Ice",
+		"tags": "ground,solid,ice"
+	},
+	"minecraft:large_flowers": {
+		"dec": 175,
+		"hex": "0xAF",
+		"name": "Large Flowers",
+		"tags": "flowers"
+	},
+	"minecraft:standing_banner": {
+		"dec": 176,
+		"hex": "0xB0",
+		"name": "Standing Banner",
+		"tags": "banner,standing"
+	},
+	"minecraft:wall_banner": {
+		"dec": 177,
+		"hex": "0xB1",
+		"name": "Wall Banner",
+		"tags": "banner,wall"
+	},
+	"minecraft:daylight_detector_inverted": {
+		"dec": 178,
+		"hex": "0xB2",
+		"name": "Inverted Daylight Sensor",
+		"tags": "sensor,interactable,redstone,daylight,inverted"
+	},
+	"minecraft:red_sandstone": {
+		"dec": 179,
+		"hex": "0xB3",
+		"name": "Red Sandstone",
+		"tags": "ground,solid,sand,stone,red"
+	},
+	"minecraft:red_sandstone_stairs": {
+		"dec": 180,
+		"hex": "0xB4",
+		"name": "Red Sandstone Stairs",
+		"tags": "ground,solid,sand,stone,red,stairs"
+	},
+	"minecraft:double_stone_slab2": {
+		"dec": 181,
+		"hex": "0xB5",
+		"name": "Double Red Sandstone Slab",
+		"tags": "ground,solid,sand,stone,red,slab,double"
+	},
+	"minecraft:stone_slab2": {
+		"dec": 182,
+		"hex": "0xB6",
+		"name": "Red Sandstone Slab",
+		"tags": "ground,solid,stone,sand,red,slab"
+	},
+	"minecraft:spruce_fence_gate": {
+		"dec": 183,
+		"hex": "0xB7",
+		"name": "Spruce Fence Gate",
+		"tags": "solid,fence,gate,spruce,wood,interactable"
+	},
+	"minecraft:birch_fence_gate": {
+		"dec": 184,
+		"hex": "0xB8",
+		"name": "Birch Fence Gate",
+		"tags": "solid,fence,gate,birch,wood,interactable"
+	},
+	"minecraft:jungle_fence_gate": {
+		"dec": 185,
+		"hex": "0xB9",
+		"name": "Jungle Fence Gate",
+		"tags": "solid,fence,gate,jungle,wood,interactable"
+	},
+	"minecraft:dark_oak_fence_gate": {
+		"dec": 186,
+		"hex": "0xBA",
+		"name": "Dark Oak Fence Gate",
+		"tags": "solid,fence,gate,dark oak,wood,interactable"
+	},
+	"minecraft:acacia_fence_gate": {
+		"dec": 187,
+		"hex": "0xBB",
+		"name": "Acacia Fence Gate",
+		"tags": "solid,fence,acacia,wood,gate,interactable"
+	},
+	"minecraft:spruce_fence": {
+		"dec": 188,
+		"hex": "0xBC",
+		"name": "Spruce Fence",
+		"tags": "solid,fence,spruce,wood"
+	},
+	"minecraft:birch_fence": {
+		"dec": 189,
+		"hex": "0xBD",
+		"name": "Birch Fence",
+		"tags": "solid,fence,birch,wood"
+	},
+	"minecraft:jungle_fence": {
+		"dec": 190,
+		"hex": "0xBE",
+		"name": "Jungle Fence",
+		"tags": "solid,fence,jungle,wood"
+	},
+	"minecraft:dark_oak_fence": {
+		"dec": 191,
+		"hex": "0xBF",
+		"name": "Dark Oak Fence",
+		"tags": "solid,fence,dark oak,wood"
+	},
+	"minecraft:acacia_fence": {
+		"dec": 192,
+		"hex": "0xC0",
+		"name": "Acacia Fence",
+		"tags": "solid,fence,acacia,wood"
+	},
+	"minecraft:spruce_door": {
+		"dec": 193,
+		"hex": "0xC1",
+		"name": "Spruce Door",
+		"tags": "solid,interactable,door,spruce,wood"
+	},
+	"minecraft:birch_door": {
+		"dec": 194,
+		"hex": "0xC2",
+		"name": "Birch Door",
+		"tags": "solid,interactable,door,birch,wood"
+	},
+	"minecraft:jungle_door": {
+		"dec": 195,
+		"hex": "0xC3",
+		"name": "Jungle Door",
+		"tags": "solid,interactable,jungle,wood,door"
+	},
+	"minecraft:acacia_door": {
+		"dec": 196,
+		"hex": "0xC4",
+		"name": "Acacia Door",
+		"tags": "solid,interactable,acacia,wood,door"
+	},
+	"minecraft:dark_oak_door": {
+		"dec": 197,
+		"hex": "0xC5",
+		"name": "Dark Oak Door",
+		"tags": "solid,interactable,dark oak,wood,door"
+	}
+}

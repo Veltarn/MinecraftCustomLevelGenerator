@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.fullWidth {
+  width: 100%;
+  max-width: initial;
+  margin-left: auto;
+  margin-right: auto; }
+
+.table600 {
+  height: 600px; }
+
+.tableScroll {
+  overflow: auto; }
+
+#blockslist_table tr, #biomelist_table tr, #structureslist_table tr {
+  cursor: pointer; }
+  #blockslist_table tr:hover, #biomelist_table tr:hover, #structureslist_table tr:hover {
+    background-color: #E8E8E8; }
+
+.spinner {
+  width: 47px;
+  height: 48px;
+  background-image: url("../img/spinner.gif");
+  background-repeat: no-repeat; }
+
+#blockImage {
+  width: 150px;
+  height: 150px;
+  margin-right: 8px; }
+
+.row .row {
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

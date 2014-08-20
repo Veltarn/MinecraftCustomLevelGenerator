@@ -1,0 +1,71 @@
+{
+	"village": {
+		"parametersNumber": 2,
+		"parameters": {
+			"size": {
+				"type": "int",
+				"min": 0,
+				"default": 1
+			},
+			"distance": {
+				"type": "int",
+				"default": 32,
+				"min": 9
+			}
+		}
+	},
+	"mineshaft": {
+		"parametersNumber": 1,
+		"parameters": {
+			"chance": {
+				"type": "float",
+				"default": 0.01,
+				"min": 0.0,
+				"max": 1.0
+			}
+		}
+	},
+	"stronghold": {
+		"parametersNumber": 3,
+		"parameters": {
+			"distance": {
+				"type": "float",
+				"default": 32.0,
+				"min": 1.0,
+				"max": 32.0
+			},
+			"count": {
+				"type": "int",
+				"default": 3,
+				"min": 0
+			},
+			"spread": {
+				"type": "int",
+				"default": 3,
+				"min": 1
+			}
+		}
+	},
+	"biome_1": {
+		"parametersNumber": 1,
+		"parameters": {
+			"distance": {
+				"type": "int",
+				"min": 9,
+				"default": 32
+			}
+		}
+	},
+	"dungeon": {
+		"parametersNumber": 0
+	},
+	"decoration": {
+		"parametersNumber": 0
+	},
+	"lake": {
+		"parametersNumber": 0
+	},
+	"lava_lake": {
+		"parametersNumber": 0
+	}
+}

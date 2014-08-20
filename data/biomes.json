@@ -1,0 +1,248 @@
+{
+  "biomes": [
+    {
+      "dec": "0",
+      "name": "Ocean"
+    },
+    {
+      "dec": "1",
+      "name": "Plains"
+    },
+    {
+      "dec": "2",
+      "name": "Desert"
+    },
+    {
+      "dec": "3",
+      "name": "Extreme Hills"
+    },
+    {
+      "dec": "4",
+      "name": "Forest"
+    },
+    {
+      "dec": "5",
+      "name": "Taiga"
+    },
+    {
+      "dec": "6",
+      "name": "Swampland"
+    },
+    {
+      "dec": "7",
+      "name": "River"
+    },
+    {
+      "dec": "8",
+      "name": "Nether"
+    },
+    {
+      "dec": "9",
+      "name": "End"
+    },
+    {
+      "dec": "10",
+      "name": "Frozen Ocean"
+    },
+    {
+      "dec": "11",
+      "name": "Frozen River"
+    },
+    {
+      "dec": "12",
+      "name": "Ice Plains"
+    },
+    {
+      "dec": "13",
+      "name": "Ice Mountains"
+    },
+    {
+      "dec": "14",
+      "name": "Mushroom Island"
+    },
+    {
+      "dec": "15",
+      "name": "Mushroom Island Shore"
+    },
+    {
+      "dec": "16",
+      "name": "Beach"
+    },
+    {
+      "dec": "17",
+      "name": "Desert Hills"
+    },
+    {
+      "dec": "18",
+      "name": "Forest Hills"
+    },
+    {
+      "dec": "19",
+      "name": "Taiga Hills"
+    },
+    {
+      "dec": "20",
+      "name": "Extreme Hills Edge"
+    },
+    {
+      "dec": "21",
+      "name": "Jungle"
+    },
+    {
+      "dec": "22",
+      "name": "Jungle Hills"
+    },
+    {
+      "dec": "23",
+      "name": "Jungle Edge"
+    },
+    {
+      "dec": "24",
+      "name": "Deep Ocean"
+    },
+    {
+      "dec": "25",
+      "name": "Stone Beach"
+    },
+    {
+      "dec": "26",
+      "name": "Cold Beach"
+    },
+    {
+      "dec": "27",
+      "name": "Birch Forest"
+    },
+    {
+      "dec": "28",
+      "name": "Birch Forest Hills"
+    },
+    {
+      "dec": "29",
+      "name": "Roofed Forest"
+    },
+    {
+      "dec": "30",
+      "name": "Cold Taiga"
+    },
+    {
+      "dec": "31",
+      "name": "Cold Taiga Hills"
+    },
+    {
+      "dec": "32",
+      "name": "Mega Taiga"
+    },
+    {
+      "dec": "33",
+      "name": "Mega Taiga Hills"
+    },
+    {
+      "dec": "34",
+      "name": "Extreme Hills+"
+    },
+    {
+      "dec": "35",
+      "name": "Savanna"
+    },
+    {
+      "dec": "36",
+      "name": "Savanna Plateau"
+    },
+    {
+      "dec": "37",
+      "name": "Mesa"
+    },
+    {
+      "dec": "38",
+      "name": "Mesa Plateau F"
+    },
+    {
+      "dec": "39",
+      "name": "Mesa Plateau"
+    },
+    {
+      "dec": "129",
+      "name": "Sunflower Plains"
+    },
+    {
+      "dec": "130",
+      "name": "Desert M"
+    },
+    {
+      "dec": "131",
+      "name": "Extreme Hills M"
+    },
+    {
+      "dec": "132",
+      "name": "Flower Forest"
+    },
+    {
+      "dec": "133",
+      "name": "Taiga M"
+    },
+    {
+      "dec": "134",
+      "name": "Swampland M"
+    },
+    {
+      "dec": "140",
+      "name": "Ice Plains Spikes"
+    },
+    {
+      "dec": "149",
+      "name": "Jungle M"
+    },
+    {
+      "dec": "151",
+      "name": "JungleEdge M"
+    },
+    {
+      "dec": "155",
+      "name": "Birch Forest M"
+    },
+    {
+      "dec": "156",
+      "name": "Birch Forest Hills M"
+    },
+    {
+      "dec": "157",
+      "name": "Roofed Forest M"
+    },
+    {
+      "dec": "158",
+      "name": "Cold Taiga M"
+    },
+    {
+      "dec": "160",
+      "name": "Mega Spruce Taiga"
+    },
+    {
+      "dec": "161",
+      "name": "Mega Spruce Taiga Hills"
+    },
+    {
+      "dec": "162",
+      "name": "Extreme Hills+ M"
+    },
+    {
+      "dec": "163",
+      "name": "Savanna M"
+    },
+    {
+      "dec": "164",
+      "name": "Savanna Plateau M"
+    },
+    {
+      "dec": "165",
+      "name": "Mesa (Bryce)"
+    },
+    {
+      "dec": "166",
+      "name": "Mesa Plateau F M"
+    },
+    {
+      "dec": "167",
+      "name": "Mesa Plateau M"
+    }
+  ]
+}
